@@ -1,13 +1,21 @@
 [tool.poetry]
-name = "dash"
+name = "smash"
 version = "0.1.0"
 description = "A Dash app prototype"
 authors = ["Freddy Wordingham <fjmw201@exeter.ac.uk>"]
 
 [tool.poetry.dependencies]
+dash = "^2.2"
+numpy = "^1.22"
+pandas = "^1.4"
 python = "^3.9"
 
 [tool.poetry.dev-dependencies]
+autopep8 = "^1.6"
+black = "^22.1"
+flake8 = "^4.0"
+jupyter = "^1.0"
+pytest = "^7.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
